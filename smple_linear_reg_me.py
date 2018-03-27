@@ -35,7 +35,7 @@ y_pred = regressor.predict(X_test)
 #visualisin the Training set results
 
 plt.scatter(X_train,y_train,color='red')
-plt.plot(X_train,regressor.predict(X_train),color='blue')
+plt.plot(X_train,regressor.predict(X_train),color='green')
 plt.title("Salary vs Experience train set result")
 plt.xlabel("Experience in years")
 plt.ylabel("Salary")
@@ -43,7 +43,7 @@ plt.show()
 
 #visualising hte test set result
 plt.scatter(X_test,y_test,color='red')
-plt.plot(X_train,regressor.predict(X_train),color='blue')
+plt.plot(X_train,regressor.predict(X_train),color='green')
 plt.title("Salary vs Experience test set result")
 plt.xlabel("Experience in years")
 plt.ylabel("Salary")
