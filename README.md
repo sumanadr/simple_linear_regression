@@ -1,3 +1,3 @@
 # simple_linear_regression
 
-This is a linear regression project done in pyton. This is really cool.
+This is a linear regression project done in python. 
