@@ -32,7 +32,7 @@ regressor.fit(X_train,y_train)
 y_pred = regressor.predict(X_test)
 # comparing y_pred i.e. predicted salary , with y_test,i.e. real salary
 
-#visualisin the Training set results
+#visualising the Training set results
 
 plt.scatter(X_train,y_train,color='red')
 plt.plot(X_train,regressor.predict(X_train),color='green')
@@ -41,7 +41,7 @@ plt.xlabel("Experience in years")
 plt.ylabel("Salary")
 plt.show()
 
-#visualising hte test set result
+#visualising the test set result using matplotlib
 plt.scatter(X_test,y_test,color='red')
 plt.plot(X_train,regressor.predict(X_train),color='green')
 plt.title("Salary vs Experience test set result")
